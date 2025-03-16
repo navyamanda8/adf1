@@ -1,0 +1,7 @@
+{
+	"name": "MSSQLIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Connecting ADF to On-Premise"
+	}
+}

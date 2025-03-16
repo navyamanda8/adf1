@@ -1,0 +1,9 @@
+{
+	"name": "onlinefooddeliverydf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "61c1d8d2-8ced-4921-bfda-48dda106fdad",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

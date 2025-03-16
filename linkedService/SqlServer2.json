@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "JM-DKT-028",
+			"database": "online_food_delivery",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "Windows",
+			"userName": "azuread\\mandanavyavenkatasai",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhZGQ0ZWYxZS1jM2I4LTRlOGQtYTU3Yi1jOTFhMzhiOGY2NDIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "MSSQLIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
